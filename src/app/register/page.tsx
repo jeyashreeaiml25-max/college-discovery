@@ -61,7 +61,7 @@ export default function Register() {
             value={email}
             onChange={e => setEmail(e.target.value)}
             placeholder="you@example.com"
-            className="w-full border px-4 py-2 rounded-lg outline-none focus:border-blue-500"
+            className="w-full border px-4 py-2 rounded-lg outline-none focus:border-blue-500 text-gray-800 bg-white"
           />
         </div>
 
@@ -72,7 +72,7 @@ export default function Register() {
             value={password}
             onChange={e => setPassword(e.target.value)}
             placeholder="••••••••"
-            className="w-full border px-4 py-2 rounded-lg outline-none focus:border-blue-500"
+            className="w-full border px-4 py-2 rounded-lg outline-none focus:border-blue-500 text-gray-800 bg-white"
           />
         </div>
 
